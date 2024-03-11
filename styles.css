@@ -114,29 +114,30 @@ main {
   display: flex;
   flex-direction: column;
   padding: 10px;
-  max-width: 16rem;
+  max-width: 18rem;
   background-color: hsl(0, 0%, 100%);
   border-radius: 10px;
   align-content: center;
 }
 h2 {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   text-align: center;
+  margin: 5px;
 }
 img {
   max-width: 100%;
   border-radius: 10px;
+  margin: 9px;
 }
 .span1 {
   color: hsl(218, 44%, 22%);
   font-weight: 700;
-  margin: 5px;
 }
 .span2 {
   color: hsl(220, 15%, 55%);
   font-weight: 400;
-  font-size: 0.75rem;
-  margin: 10px;
+  font-size: 0.9rem;
+  margin: 10px 10px 20px 10px;
   text-align: center;
 }
 
