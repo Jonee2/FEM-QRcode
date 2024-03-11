@@ -120,7 +120,7 @@ main {
   align-content: center;
 }
 h2 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-align: center;
 }
 img {
@@ -135,13 +135,18 @@ img {
 .span2 {
   color: hsl(220, 15%, 55%);
   font-weight: 400;
-  font-size: 0.7rem;
-  margin: 5px;
+  font-size: 0.75rem;
+  margin: 10px;
   text-align: center;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
   .main {
     width: 90%;
+
+  }
+  .span2{
+    font-size: 0.75em;
+    margin-bottom: 10px;
   }
 }
